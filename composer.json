@@ -1,21 +1,25 @@
 {
-    "name": "Softlabs/xero-laravel",
-    "description": "Xero Service Provider for Laravel 4",
-    "keywords": ["laravel","laravel 4","xero"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Paul Johnston",
-            "email": "paul@softlabs.co.uk"
-        }
-    ],
-    "require": {
-        "php": ">=5.6.4",
-      "illuminate/support": "~5.4"
-    },
-    "autoload": {
-      "psr-0": {
-        "Softlabs\\XeroLaravel": "src/"
-      }
+  "name": "shabbir-bharmal/xero-laravel",
+  "description": "Xero Service Provider for Laravel 5",
+  "keywords": [
+    "laravel",
+    "laravel 5",
+    "xero"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Shabbir Bharmal",
+      "email": "bharmal.shabbir@outlook.com"
     }
+  ],
+  "require": {
+    "php": ">=5.6.4",
+    "illuminate/support": "~5.4"
+  },
+  "autoload": {
+    "psr-0": {
+      "Softlabs\\XeroLaravel": "src/"
+    }
+  }
 }
